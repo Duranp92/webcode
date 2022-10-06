@@ -1,0 +1,845 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+
+  
+    background-image: url(./bannernavabar.png);
+    background-repeat: no-repeat;
+
+
+}
+
+footer{
+margin-bottom: 100px;
+    background-image: url(./bannerfondo2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+    nav{
+      
+        width: 100%;
+        height: 220px;
+ 
+    }
+    
+    .enlace{
+        position: absolute;
+        
+    }
+    
+    nav ul{
+        float: right;
+        margin-top:60px;
+        margin-right: 600px;
+  
+    }
+    
+    
+    nav ul li{
+   
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+    
+    }
+    
+    nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 15px;
+    transition: .5s;
+ 
+    
+    
+    }
+    
+
+    nav ul li a:hover{
+        color:rgba(0, 213, 255, 0.863);
+      border-bottom: #4affff;
+        
+
+        
+        }
+
+
+
+  
+    .checkbtn{
+        float: right;
+        margin-top: 25px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #check{
+        display: none;
+    }
+
+
+ 
+
+
+
+
+.banner1{
+position: relative;
+display: flex;
+align-items: center;
+margin-top: -150px;
+margin-left: 100px;
+padding: 100px;
+
+
+
+}
+
+
+.banner1 h1{
+    color: rgb(255, 255, 255);
+    padding-left: 49px;
+    font-size: 60px;
+    font-family: 'Archivo Black', sans-serif;
+    padding-bottom: 200px;
+    
+   
+   
+    
+}
+
+.compu-imagen{
+    margin-left: 200px;
+    padding-top: 150px;
+    transition: 1s;
+    transform: translateY(0);
+  
+}
+
+.compu-imagen:hover{
+    transform: translateX(-15px);
+    
+
+}
+
+
+.titulo-banner{
+    display: block;
+    border-left: 20px solid rgba(255, 255, 255, 0.863) ;
+
+
+}
+.titulo-banner  p{
+    margin-top: -200px;
+    font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  padding-left: 50px;
+    color:rgb(0, 0, 0);
+
+    
+}
+
+.bannermobile{
+    display: none;
+}
+.bannermobile2{
+    display: none;
+}
+
+
+.container{
+   position: absolute;
+   padding-left: 50px;
+   padding-top: 20px;
+  
+}
+
+.btn{
+border: none;
+font-family: 'Be Vietnam Pro', sans-serif;
+font-size: 15px;
+padding: 15px;
+border-radius: 10px;
+cursor: pointer;
+color: rgb(255, 255, 255);
+background-size: 200%;
+transition: 0.6s;
+}
+
+.btn1{
+    background-image:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.btn:hover{
+
+background-position: right;
+box-shadow: 1px 0px 46px -17px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 0px 46px -17px rgba(0,0,0,1);
+-moz-box-shadow: 1px 0px 46px -17px rgba(0,0,0,1);
+}
+
+
+
+.web{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+
+
+
+
+
+}
+.web h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 40px;  
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    animation: text 3s 1;
+    
+}
+
+@keyframes text{
+    
+    20% {
+    letter-spacing: 10px;
+    margin-bottom: -10px;
+}
+}
+
+
+.web-padre{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(./bannerfondo4.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+   
+
+}
+ 
+
+
+.web-hijos{
+
+  font-family: 'Be Vietnam Pro', sans-serif;
+    border:  5px solid rgba(0, 255, 242, 0.932);
+    border-radius: 30px;
+    width: 344px;
+    height: 400px;
+    flex-wrap: wrap;
+margin: 30px;
+display: inline-block;
+text-align: center
+;transition: 1s;
+transform: translateX(0);
+
+}
+
+.web-padre .web-hijos img{
+    margin-top: 20px;
+}
+
+.web-padre .web-hijos .titulo{
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.web-padre .web-hijos .sub-titulo{
+  color: rgb(77, 77, 77);
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+.web-hijos:hover{
+    box-shadow: 1px 0px 46px -17px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 0px 46px -17px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 0px 46px -17px rgba(0,0,0,1);
+    transform: translateY(-10px);
+}
+
+
+
+.quienes-somos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+background-image: url(./bannerfondo6.png);
+background-repeat: no-repeat;
+background-size: 40%;
+
+
+
+
+
+}
+
+.quienes-somos h2{
+    font-size: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+ 
+    
+}
+
+.quienes-somos p{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 1px #4affff;
+    border-radius: 5px;
+
+
+   
+}
+
+
+
+
+.servicios{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 100px;
+
+
+
+}
+
+.banner-servicios{
+    font-size: 30px;
+   
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    
+    width: 40%;
+margin-bottom: 50px;
+background-size: 200%;
+
+  
+}
+
+
+.banner-servicios p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+
+.cuadros{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bannerfondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+.cuadros-hijos{
+  
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border:  5px solid rgba(0, 213, 255, 0.863);
+    border-radius: 30px;
+    width: 344px;
+    height: 350px;
+    flex-wrap: wrap;
+margin: 30px;
+display: inline-block;
+text-align: center
+;transition: 1s;
+transform: translateX(0);
+ 
+
+}
+
+.cuadros .cuadros-hijos img{
+    margin-top: 20px;
+}
+
+.cuadros .cuadros-hijos .titulo{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.cuadros .cuadros-hijos .sub-titulo{
+  color: rgb(49, 49, 49);
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+.cuadros-hijos:hover{
+    box-shadow: 1px 0px 46px -17px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 0px 46px -17px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 0px 46px -17px rgba(0,0,0,1);
+    transform: translateY(-10px);
+
+}
+
+
+
+
+.banner3{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+  
+
+  
+}
+.banner3 .titulo3 h3{
+
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo Black', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+    padding: 20px;
+   
+   
+
+
+}
+
+
+
+
+
+    .container-form{
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        font-family: 'Archivo Black', sans-serif;
+    
+      
+
+    }
+    .container-form h4{
+        margin-bottom: 15px;
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    
+    }
+    .container-form p{
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        color: rgb(49, 49, 49);
+        font-family: 'Nunito', sans-serif;
+    }
+    .container-form a{
+        font-size: 15px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    .container-form a i{
+        color: #d6460d;
+        margin-right: 10px;
+    }
+    .container-form form .campo, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 16px;
+        border: 1px solid #cccccc;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    .container-form form textarea{
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+    .container-form .btn-enviar{
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background-image:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        background-size: 200%;
+        transition: 0.6s;
+       
+    }
+    .container-form .btn-enviar:hover{
+        background-position: right;
+     
+    }
+
+
+
+  
+
+
+
+    @media (max-width: 1600px){
+
+nav ul li a{
+
+    font-size: 15px;
+}
+
+
+
+        .banner1{
+
+            margin-bottom: 120px;
+         }
+ 
+
+        .banner1 h1{
+            font-size: 50px;
+        
+        }
+
+        .banner1 p{
+            font-size: 15px;
+        
+        }
+
+
+        .banner3 .titulo3 h3{
+            font-size: 40px;
+        
+            
+        }
+
+.banner1{
+
+    margin-bottom: 130px;
+}
+
+      .banner1 img{
+        display: flex;
+margin-left: 100px;
+        width: 600px;
+        height: 600px;
+     margin-bottom: 100px;
+        }
+
+      
+.quienes-somos h2{
+    font-size: 40px;
+}.quienes-somos p{
+    font-size: 18px;
+}
+
+    }
+   
+    @media (max-width: 1024px){
+        .checkbtn{
+            margin-top: 50px;
+            display:block;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 150px;
+            background-image: linear-gradient(to left, #4affff, #2cbcff, #71d4fc);
+            border-radius: 10px;
+            top: 70px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 15px 0;
+            line-height: 30px;
+    
+        }
+    nav ul li a{
+        font-size: 15px;
+    
+    }
+     .logo{
+    
+    width: 250px;
+    height: 150px;
+     }
+    
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+    
+@media (max-width: 768px){
+
+
+    .banner1{
+        margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+         
+        }
+
+
+
+.banner1 h1{
+font-size: 30px;
+
+
+}
+
+.banner1 p{
+    font-size: 15px;
+    
+    
+    }
+
+
+.banner1 img{
+display: none;
+ }
+
+
+
+
+.btn{
+    font-size: 10px;
+padding: 10px;
+}
+ 
+.banner3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -250px;
+
+}
+.banner3 .titulo3{
+padding-left: 50px;
+    font-size: 20px;
+}
+
+.banner-servicios h2{
+    font-size: 30px;
+}
+.banner-servicios p{
+    font-size: 15px;
+}
+
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+ margin-bottom: 100px;
+    
+}
+.container-form p{
+    
+    font-size: 15px;
+}
+
+.container-form form .campo, textarea{
+width: 90%;
+
+}
+
+
+
+
+
+
+.container-form h4{
+    font-size: 30px;
+}
+
+         @media (max-width: 460px)
+{
+
+body{
+
+    background-size: 400%;  
+}
+
+
+.web h5{
+margin-left: 50px;
+    font-size: 20px;
+   
+}
+ 
+    .banner1{
+        margin-left: -50px;
+        
+
+    }
+    
+    .titulo-banner{
+        border-left: 10px solid rgba(0, 213, 255, 0.863) ;
+
+    }
+    .banner1 .titulo-banner h1{
+        font-size: 35px;
+       
+    }
+
+    }
+    .banner1 .titulo-banner p{
+        font-size: 12px;
+       
+    }
+  
+
+        .banner3{
+margin-top: -170px;
+
+        }
+        .container-form form textarea{
+            max-width: 90%;
+            min-width: 90%;
+            min-height: 90px;
+            max-height: 100px;
+        
+        }
+
+
+.banner3 .titulo3 h3{
+    font-size: 30px;
+
+    background: none;
+    color: black;
+
+    
+}
+
+
+
+.banner-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+    margin-top: -100px;
+
+}
+
+.banner-servicios h2{
+    font-size: 30px;
+
+
+}
+
+.cuadros{
+    background-position: top;
+}
+
+
+
+ .cuadros .cuadros-hijos p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+
+
+
+.titulo-banner  p{
+font-size: 10px;
+}
+.titulo-banner2  p{
+    font-size: 10px;
+    }
+
+    .titulo-banner2  h2{
+        font-size: 18px;
+        }
+    
+
+.logo{
+
+    width: 250px;
+height: 150px;
+}
+
+ .container-form{
+
+    background-size: 90%;
+ }
+.container-form p{
+    
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.container-form h4{
+  
+    font-size: 20px;
+   
+
+}
+.quienes-somos{
+
+padding: 20px;
+background-size: 100%;
+
+}
+.quienes-somos h2{
+
+    font-size: 25px;
+}
+
+
+.quienes-somos p{
+
+    font-size: 15px;
+}
+
+footer{
+    background-size: 100%;
+    background-position: bottom;
+}
+
+    
+
+
+}
